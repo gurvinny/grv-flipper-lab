@@ -20,7 +20,7 @@ All work is performed exclusively on devices I own or environments where I have 
 
 | Project | Description | Repository |
 |----------|--------------|-------------|
-| IR Automation System | Reverse engineering IR protocols and building room automation workflows | flipper-ir-automation |
+| IR Automation System | Reverse engineering IR protocols and building room automation workflows | [flipper-ir-automation](https://github.com/gurvinny/flipper-ir-automation) |
 
 *(Additional projects will be added as research continues.)*
 
