@@ -1,51 +1,42 @@
 # Flipper Lab — Embedded Systems, Automation & Security Research
 
-This repository is the central hub for my Flipper Zero research and engineering projects,
-covering infrared (IR), RFID/NFC, Sub-GHz RF, GPIO hardware experiments, and automation workflows.
+This repository serves as the central hub for my Flipper Zero research and engineering projects, covering infrared (IR), RF, GPIO hardware experimentation, and automation workflows.
 
-All work is conducted on hardware I own or environments where I have explicit authorization.
+Each project focuses on hands-on learning, protocol analysis, real-world system design, and repeatable documentation.
 
----
-
-## 🔬 Research Areas
-
-- Infrared (IR) Protocol Analysis & Automation
-- GPIO Hardware Interfacing
-- RFID / NFC Research (Authorized Devices Only)
-- Sub-GHz RF Signal Analysis (Controlled Environments)
-- USB HID Automation (BadUSB — Safe Demonstrations Only)
+All work is performed exclusively on devices I own or environments where I have explicit authorization.
 
 ---
 
-## 🧪 Projects
+## 🔬 Current Research Focus
 
-| Project | Focus | Repository |
-|---------|--------|-------------|
-| IR Automation System | Reverse engineering IR + room automation | flipper-ir-automation |
-| GPIO Lab | Sensors, hardware modules, protocols | flipper-gpio-lab |
-| RFID Research | Tag analysis + protocol study | flipper-rfid-research |
-| Sub-GHz Lab | RF signal research + decoding | flipper-subghz-research |
-| BadUSB Demos | Safe automation workflows | flipper-badusb-demos |
+- Infrared (IR) signal capture, decoding, and automation  
+- Embedded device interaction & protocol analysis  
+- Real-world automation workflows  
+
+---
+
+## 🧪 Active Projects
+
+| Project | Description | Repository |
+|----------|--------------|-------------|
+| IR Automation System | Reverse engineering IR protocols and building room automation workflows | flipper-ir-automation |
+
+*(Additional projects will be added as research continues.)*
 
 ---
 
 ## 🛠 Skills Demonstrated
 
-- Embedded systems experimentation
-- Signal analysis & protocol research
-- Hardware/software integration
-- Automation engineering
-- Structured technical documentation
+- Embedded systems experimentation  
+- Signal analysis and protocol research  
+- Hardware & software integration  
+- Automation engineering  
+- Security-focused thinking  
+- Technical documentation  
 
 ---
 
-## ⚠️ Ethics & Authorization
+## 📐 Standard Project Structure
 
-All experiments are conducted on:
-- Devices I personally own
-- Hardware purchased specifically for testing
-- Environments where I have explicit written permission
-
-No unauthorized access, interference, or exploitation is performed.
-
----
+Each project repository follows a consistent structure:
