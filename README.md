@@ -37,6 +37,29 @@ All work is performed exclusively on devices I own or environments where I have 
 
 ---
 
-## 📐 Standard Project Structure
+## ⚠️ Ethics, Safety & Authorization
 
-Each project repository follows a consistent structure:
+All experiments are conducted on:
+
+- Hardware I personally own  
+- Devices purchased specifically for testing  
+- Systems where I have explicit authorization  
+
+No unauthorized access, interference, or exploitation is performed.
+
+This repository is intended for educational, research, and engineering demonstration purposes only.
+
+---
+
+## 🚀 Purpose
+
+This lab exists to strengthen my understanding of:
+
+- Embedded systems  
+- Signal processing  
+- Automation workflows  
+- Hardware security principles  
+
+and to build a public portfolio demonstrating practical, hands-on engineering skills.
+
+---
