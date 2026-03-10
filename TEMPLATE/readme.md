@@ -1,8 +1,16 @@
-# [Project Title] — [Brief Subtitle]
+<div align="center">
 
-![Status](https://img.shields.io/badge/Status-Active-1F2937?style=flat-square&logoColor=60A5FA)
-![Device](https://img.shields.io/badge/Device-Flipper%20Zero-1F2937?style=flat-square&logo=flipperdevices&logoColor=60A5FA)
-![License](https://img.shields.io/badge/License-MIT-1F2937?style=flat-square&logoColor=60A5FA)
+  <h2>[Project Title] — [Brief Subtitle]</h2>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/Status-Active-1F2937?style=flat-square&logoColor=60A5FA" alt="Status" />
+    <img src="https://img.shields.io/badge/Device-Flipper%20Zero-1F2937?style=flat-square&logo=flipperdevices&logoColor=60A5FA" alt="Device" />
+    <img src="https://img.shields.io/badge/Category-[Category_Here]-1F2937?style=flat-square&logoColor=60A5FA" alt="Category" />
+    <img src="https://img.shields.io/badge/License-MIT-1F2937?style=flat-square&logoColor=60A5FA" alt="License" />
+  </p>
+</div>
+
+---
 
 ## 📌 Project Overview
 

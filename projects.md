@@ -1,7 +1,12 @@
 <div align="center">
 
-  <h3>🧪 Project Index — Flipper Lab</h3>
+  <h2>🧪 Project Index — Flipper Lab</h2>
 
+  <p align="center">
+    <img src="https://img.shields.io/badge/Status-Active-1F2937?style=flat-square&logoColor=60A5FA" alt="Status" />
+    <img src="https://img.shields.io/badge/Device-Flipper%20Zero-1F2937?style=flat-square&logo=flipperdevices&logoColor=60A5FA" alt="Device" />
+    <img src="https://img.shields.io/badge/Documentation-Index-1F2937?style=flat-square&logoColor=60A5FA" alt="Docs" />
+  </p>
 </div>
 
 ---
