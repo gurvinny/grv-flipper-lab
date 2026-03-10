@@ -1,15 +1,5 @@
 <div align="center">
-
-![Gurvin Singh](https://raw.githubusercontent.com/gurvinny/gurvinny/main/gurvin-nameplate.svg)
-
   <h3>Flipper Lab — Embedded Systems & Security Research</h3>
-
-  [![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/gurvin.png)](https://tryhackme.com/p/gurvin)
-
-  <p align="center">
-    <a href="mailto:gurvin240@gmail.com"><img src="https://img.shields.io/badge/Email-1F2937?style=for-the-badge&logo=gmail&logoColor=60A5FA&borderColor=60A5FA" alt="Email" /></a>
-    <a href="https://www.linkedin.com/in/gurvin-s-6a02b3278/"><img src="https://img.shields.io/badge/LinkedIn-1F2937?style=for-the-badge&logo=linkedin&logoColor=60A5FA&borderColor=60A5FA" alt="LinkedIn" /></a>
-  </p>
 </div>
 
 ---
