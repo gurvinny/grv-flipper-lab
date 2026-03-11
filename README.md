@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>Flipper Lab — Embedded Systems & Security Research</h2>
+  <h2>🐬 Flipper Lab — Embedded Systems & Security Research</h2>
 
   <p align="center">
     <img src="https://img.shields.io/badge/Status-Active-1F2937?style=flat-square&logoColor=60A5FA" alt="Status" />
@@ -16,6 +16,21 @@
 This repository serves as the central hub for my **Flipper Zero research and engineering projects**, covering infrared (IR), RF, GPIO hardware experimentation, and automation workflows.
 
 The primary focus is on hands-on learning, protocol analysis, and real-world system design tailored for **Embedded Systems and Security Research**. Each project showcases a methodology of reverse-engineering and security experimentation, building foundational skills for penetration testing and hardware security.
+
+---
+
+## 📁 Repository Structure
+
+To ensure clarity and professional engineering practices, this repository is organized as follows:
+
+- **[`projects.md`](projects.md)**: 📋 The master index for all active and planned research projects, detailing focus areas and proposed experiments.
+- **[`SECURITY.md`](SECURITY.md)**: 🛡️ The core policy outlining ethics, safety, authorized usage, and responsible disclosure for all work in this lab.
+- **[`TEMPLATE/`](TEMPLATE/)**: 🏗️ A standardized directory structure for bootstrapping new projects. It includes:
+  - `data/` — Raw captures, payloads, and protocol dumps.
+  - `demo/` — Videos, GIFs, or evidence of successful execution.
+  - `diagrams/` — Architecture and system diagrams.
+  - `notes/` — Research notes, references, and scratchpads.
+  - `readme.md` — The template documentation for the project.
 
 ---
 
@@ -42,24 +57,19 @@ Designed and implemented a unified infrared (IR) automation system using the Fli
 
 ## 🧪 Planned Cybersecurity & Pen-Testing Projects
 
-*(Projects below will be added to this lab as research continues.)*
+*For a full list of proposed experiments including USB HID (BadUSB), Sub-GHz RF, RFID/NFC, and Wi-Fi Auditing, please refer to the Master Project Index.*
 
-- **USB HID Automation (BadUSB):** Developing specialized payload scripts for rapid execution and exploring defense mitigation strategies.
-- **Sub-GHz RF Signal Capture & Replay:** Auditing legacy physical access controls (e.g., garage doors, gates) by analyzing replay attack vulnerabilities.
-- **RFID / NFC Protocol Analysis:** Cloning and emulating low-frequency and high-frequency access cards to test building security controls.
-- **Wi-Fi Auditing (ESP8266/ESP32):** Utilizing devboards for deauth attacks, capturing handshakes, and analyzing wireless network defenses.
+👉 **[View the Project Index (projects.md)](projects.md)**
 
 ---
 
 ## ⚠️ Ethics, Safety & Authorization
 
-All experiments are conducted on:
+All experiments are conducted strictly for educational and research purposes within authorized boundaries.
 
-- Hardware I personally own  
-- Devices purchased specifically for testing  
-- Systems where I have explicit authorization  
+For detailed guidelines on out-of-scope activities, responsible disclosure, and safety, please refer to our Security Policy.
 
-No unauthorized access, interference, or exploitation is performed.
+👉 **[Read the Security Policy (SECURITY.md)](SECURITY.md)**
 
 <div align="center">
   <i>Disclaimer: This repository is intended for educational, research, and engineering demonstration purposes only.</i>

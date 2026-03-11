@@ -11,7 +11,7 @@
 
 ---
 
-This document serves as the master index for all Flipper Zero research and engineering projects contained within this lab ecosystem.
+This document serves as the **📋 Master Index** for all Flipper Zero research and engineering projects contained within this lab ecosystem.
 
 Each project repository follows a standardized structure and documentation format to ensure clarity, reproducibility, and professional engineering practices tailored for **Cybersecurity & Penetration Testing**.
 
@@ -29,21 +29,50 @@ Each project repository follows a standardized structure and documentation forma
 
 *(Projects below will be added as research continues.)*
 
-| Research Area | Focus | Proposed Experiments |
-| :--- | :--- | :--- |
-| **USB HID Automation** | ![Payloads](https://img.shields.io/badge/Payloads-1F2937?style=flat-square&logoColor=60A5FA) | **BadUSB Scripting:** Deploying keystroke injection attacks for rapid reconnaissance, reverse shells, and local privilege escalation. |
-| **Sub-GHz RF Signals** | ![Sub--GHz RF](https://img.shields.io/badge/Sub--GHz_RF-1F2937?style=flat-square&logoColor=60A5FA) | **Replay Attacks:** Capturing, decoding, and analyzing rolling codes vs static codes on physical access systems like gates and garage doors. |
-| **RFID / NFC Analysis** | ![RFID / NFC](https://img.shields.io/badge/RFID_/_NFC-1F2937?style=flat-square&logoColor=60A5FA) | **Access Control Cloning:** Reading, emulating, and cloning low-frequency (125 kHz) and high-frequency (13.56 MHz) key fobs/access cards. |
-| **Wi-Fi Auditing** | ![Wireless Sec](https://img.shields.io/badge/Wireless_Sec-1F2937?style=flat-square&logoColor=60A5FA) | **Devboard Testing:** Utilizing ESP8266/ESP32 modules on the Flipper Zero to capture WPA handshakes, simulate deauth attacks, and analyze wireless networks. |
+### ⌨️ USB HID Automation (BadUSB)
+![Payloads](https://img.shields.io/badge/Payloads-1F2937?style=flat-square&logoColor=60A5FA) ![Keystroke Injection](https://img.shields.io/badge/Keystroke_Injection-1F2937?style=flat-square&logoColor=60A5FA)
+
+**Focus:** Deploying specialized keystroke injection scripts for automated execution across various operating systems (Windows, macOS, Linux).
+**Proposed Experiments:**
+- **Reconnaissance Payloads:** Automate rapid system enumeration, network topology mapping, and configuration extraction.
+- **Privilege Escalation & Persistence:** Explore methods to execute local privilege escalation (LPE) techniques and establish persistence mechanisms (e.g., reverse shells, scheduled tasks) using Rubber Ducky script syntax.
+- **Defense & Mitigation:** Analyze how EDR (Endpoint Detection and Response) and antivirus solutions respond to HID attacks, and develop mitigation strategies (e.g., USB port blocking, execution policy enforcement).
+
+### 📻 Sub-GHz RF Signals
+![Sub--GHz RF](https://img.shields.io/badge/Sub--GHz_RF-1F2937?style=flat-square&logoColor=60A5FA) ![Protocol Analysis](https://img.shields.io/badge/Protocol_Analysis-1F2937?style=flat-square&logoColor=60A5FA)
+
+**Focus:** Capturing, decoding, and analyzing radio frequency transmissions on physical access systems (e.g., gates, garage doors, IoT devices).
+**Proposed Experiments:**
+- **Static vs. Rolling Codes:** Investigate the security differences between static codes (which are vulnerable to simple capture-and-replay) and dynamic rolling codes (e.g., KeeLoq).
+- **Signal Replay Attacks:** Audit legacy physical access controls by demonstrating replay attack vulnerabilities and highlighting the need for modernized security protocols.
+- **Custom Protocol Parsing:** Develop parsers or leverage existing tools (like URH - Universal Radio Hacker) to visualize and manipulate sub-GHz waveforms.
+
+### 💳 RFID / NFC Analysis
+![RFID / NFC](https://img.shields.io/badge/RFID_/_NFC-1F2937?style=flat-square&logoColor=60A5FA) ![Access Control](https://img.shields.io/badge/Access_Control-1F2937?style=flat-square&logoColor=60A5FA)
+
+**Focus:** Reading, emulating, and cloning low-frequency (125 kHz) and high-frequency (13.56 MHz) physical access cards and tags.
+**Proposed Experiments:**
+- **Access Control Auditing:** Clone standard access badges (e.g., HID Prox, MIFARE Classic) to test building perimeter security controls.
+- **Emulation vs. Cloning:** Evaluate the differences between emulating a badge directly from the Flipper Zero versus writing the captured data to a blank physical tag.
+- **Vulnerability Assessment:** Identify misconfigurations in physical security systems, such as relying on unencrypted UID checks instead of secure sector authentication.
+
+### 📶 Wi-Fi Auditing
+![Wireless Sec](https://img.shields.io/badge/Wireless_Sec-1F2937?style=flat-square&logoColor=60A5FA) ![Network Auditing](https://img.shields.io/badge/Network_Auditing-1F2937?style=flat-square&logoColor=60A5FA)
+
+**Focus:** Utilizing compatible devboards (e.g., ESP8266, ESP32) attached to the Flipper Zero to analyze and audit wireless network defenses.
+**Proposed Experiments:**
+- **Deauthentication Attacks:** Simulate deauth attacks (802.11w management frame vulnerability) to force client disconnections and capture subsequent WPA/WPA2 handshakes.
+- **Handshake Analysis:** Extract captured PMKID or 4-way handshakes and attempt offline dictionary or brute-force attacks to evaluate password strength.
+- **Rogue AP & Evil Twin:** Deploy localized rogue access points to observe client probe requests and demonstrate the risks of connecting to untrusted networks.
 
 ---
 
 ## ⚠️ Ethics & Authorization
 
-All projects are conducted on devices owned by me or environments where I have explicit authorization.
+All projects, experiments, and tooling documented in this repository are subject to strict ethical boundaries.
 
-No unauthorized access, exploitation, surveillance, or interference is performed.
+👉 **[Read the Full Security Policy (SECURITY.md)](SECURITY.md)**
 
-This repository is intended strictly for educational, research, and engineering demonstration purposes.
-
----
+<div align="center">
+  <i>This repository is intended strictly for educational, research, and engineering demonstration purposes.</i>
+</div>
