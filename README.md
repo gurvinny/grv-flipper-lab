@@ -74,3 +74,11 @@ For detailed guidelines on out-of-scope activities, responsible disclosure, and 
 <div align="center">
   <i>Disclaimer: This repository is intended for educational, research, and engineering demonstration purposes only.</i>
 </div>
+
+---
+
+## Contributions
+
+This repository is published as a record of completed work, not as a collaborative project.
+Issues are disabled and pull requests are not reviewed or merged. Corrections, broken links and
+security concerns are welcome — see [SECURITY.md](SECURITY.md) for how to report them.
